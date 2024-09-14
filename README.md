@@ -8,14 +8,14 @@
 
 
 ## Overview
-This project implements a stylish login system using Bootstrap for the frontend and JDBC Servlet for backend integration with SQL database. It features a modern login form with social login options and a signup feature that remembers user information.
+This project implements a stylish sign in system using Bootstrap for the frontend and JDBC Servlet for backend integration with SQL database. It features a modern sign in  form with social login options and a signup feature that remembers user information.
 
 
 
 
 ## Features
 
-* Responsive login form using Bootstrap
+* Responsive Sign in  form using Bootstrap
 
 * Email and password authentication
 * "Remember me" functionality
@@ -67,9 +67,6 @@ CREATE TABLE users (
 
     password VARCHAR(255) NOT NULL,
 
-    remember_token VARCHAR(255),
-
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
 
